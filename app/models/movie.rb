@@ -6,8 +6,5 @@ class Movie < ActiveRecord::Base
     %w(G PG PG-13 NC-17 R)
   end
 
-  def self.semilar_directors(director)
-  	Movie.where(:director => director)
-  end
 end
 
