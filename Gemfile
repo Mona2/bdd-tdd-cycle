@@ -18,7 +18,7 @@ group :development, :test do
   gem 'simplecov'
 end
 group :production do
-
+  gem  'rails_12factor'
 end
 
 # Gems used only for assets and not required
