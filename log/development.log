@@ -1451,3 +1451,173 @@ Connecting to database specified by database.yml
   [1m[36m (0.7ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (2.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
   [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (135.0ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (626.2ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (24.8ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (124.5ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (572.1ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (25.5ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (4.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.9ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (1.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (112.7ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (529.3ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (8.1ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (113.2ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (499.3ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (13.8ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (113.2ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (545.8ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (10.7ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (9.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (113.0ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (502.4ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (16.6ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (111.8ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (511.7ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (14.8ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (112.0ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (537.7ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (10.6ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (114.6ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (292.9ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (12.7ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (113.2ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (481.4ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (10.5ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (112.5ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (333.7ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (8.7ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (114.4ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (316.2ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (14.0ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (114.1ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (329.1ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (9.3ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (113.7ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (284.0ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (6.6ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (114.5ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (283.5ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (114.9ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (312.1ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (6.2ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (113.0ms)[0m  DROP DATABASE IF EXISTS "mona_test"
+  [1m[36m (308.0ms)[0m  [1mCREATE DATABASE "mona_test" ENCODING = 'unicode'[0m
+  [1m[35m (9.9ms)[0m  CREATE TABLE "movies" ("id" serial primary key, "title" character varying(255), "rating" character varying(255), "description" text, "release_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "director" character varying(255)) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151004211304')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
